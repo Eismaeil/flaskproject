@@ -1,0 +1,7 @@
+this is my project
+use of the project
+technology
+
+daily task management 
+
+https://github.com/marcusvieira88/python-flask-task-manager
