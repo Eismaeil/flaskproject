@@ -1,5 +1,5 @@
 FROM python:3.10-slim-buster
-WORKDIR /home/azureuser/flaskproject
+WORKDIR /app
 COPY requirements.txt requirements.txt
 RUN install –r requirements.txt
 COPY app.py .
