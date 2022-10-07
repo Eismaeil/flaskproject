@@ -2,7 +2,7 @@
 I will design an application using the crud functionality using Python, Flask, Docker and SQLite for a database. 
 My application will be a Daily Task Manager where the user can add a task, name the task and delete or update the task if needed. This information will be stored in the SQLite database. Use container instances to create a continuous integration (CI)/continuous deployment (CD) pipeline that will automatically test, build and deploy the application
 
-![](https://file%2B.vscode-resource.vscode-cdn.net/c%3A/Users/Eismaeil/OneDrive/Pictures/Screenshots/2022-10-07.png?version%3D1665143605033)
+![ULM](https://user-images.githubusercontent.com/110677635/194580273-e640e859-6fdf-477c-9efa-1096867f6a88.png)
 
 ### Technologies 
 Flask in Python This gives me the means to create the app with added functionality such as forms and database interactions.
