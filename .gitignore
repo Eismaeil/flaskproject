@@ -110,3 +110,7 @@ dmypy.json
 # End of https://www.gitignore.io/api/python,intellij
 
 env
+
+task.db-journal
+
+flaskproject - Shortcut.lnk
