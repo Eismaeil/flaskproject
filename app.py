@@ -52,7 +52,7 @@ def update_task(id):
         return 'There was an issue updating your task'
 
 
-@app.route('/delete/<int:id>', methods=['POST'])
+@app.route('/delete/<int:id>', methods=['GET' , 'POST'])
 def delete_task(id):
     task_to_delete = Task.query.get_or_404(id)
     try:
