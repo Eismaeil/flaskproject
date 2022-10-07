@@ -1,84 +1,33 @@
-### Introductionjhvjh
-Task Manager built in Python, Flask and SQLLite. 
+### Introduction
+I will design an application using the crud functionality using Python, Flask, Docker and SQLite for a database. 
+My application will be a Daily Task Manager where the user can add a task, name the task and delete or update the task if needed. This information will be stored in the SQLite database. Use container instances to create a continuous integration (CI)/continuous deployment (CD) pipeline that will automatically test, build and deploy the application
 
-### Instalation
+![](https://file%2B.vscode-resource.vscode-cdn.net/c%3A/Users/Eismaeil/OneDrive/Pictures/Screenshots/2022-10-07.png?version%3D1665143605033)
 
-[Download and install Python3](https://www.python.org/downloads)
-Check python installed version:
-```shell
-python --version
-```
+### Technologies 
+Flask in Python This gives me the means to create the app with added functionality such as forms and database interactions.
+Python will be used to create the app.  The basic breakdown of the application will have template HTML files for the frontend of the app and the programming code (python) will used for the backend of the app on an application folder. Together these will make the web page where the CRUD functionality will incorporated.
 
-Install virtual env:
-```shell
-cl
-```
-virtualenv is a tool to create isolated Python environments. virtualenv creates a folder which contains all the necessary executables to use the packages that a Python project would need.
+In order for a CRUD functionality to work I will also use SQLite for the database. The database must contain two tables with a relationship The relationship must at least be one-to-many.
+CI/CD Pipeline will be used to automate the integration and deployment of new code. 
+Pipeline to be triggered when new code to be pushed onto GitHub repository. 
 
-Create a virtual environment:
-```shell
-virtualenv env
-```
-
-Select the environment:
-If you are using Visual Code IDE:
-- Open the terminal view inside Visual Code (Ctrl + ç - Portuguese Keyboard)
-- Choose the GitBash as default bash
-- Execute the command bellow
-
-```shell
-source env/Scripts/activate
-```
+### Deployment
+The application should be deployed to a Docker Swarm hosted in the cloud both should be on the same resource group and use the same virtual network. The Docker Swarm will consist of one manager node and one worker node.
+Management of the project 
+The project will be managed on Jira showcasing Estimation, MoSCoW Prioritisation and User Stories.
+The Use of Git Bash and GitHub will help store, share and update my repository for this app across the technologies.
 
 Install required libs:
-```shell
-pip install flask flask-sqlalchemy
-```
 
-Create the SQL Lite database
+1- pip install flask flask-sqlalchemy
+2 - Access python console: python  
+3 - Connect to the Sqlite: from app import db
+4- Create the SQLite database:db.create_all()
+5- Install Jenkins and Docker on VM to create a container and start CI/CD process
+6- Push app code into git hub respository
+7- link Github respositoy to Jenkins pipline on Script
+8- Use Public IP with port 5000 to access web application 
 
-1 - Access python console:
-```shell
-python
-```
-
-2 - Connect to the Sqlite:
-```shell
-from app import db
-```
-
-3 - Create the SQLite database:
-```shell
-db.create_all()
-```
 
 ### Run
-curl
-To start the Flask server:
-```shell
-python app.py
-```
-
-To check the basic URL created:
-```
-http://localhost:5000/
-```
-
-### WSGI - Web Server Gateway Interface
-
-Web Server Gateway Interface and it's a spec for a software interface between a web server and a python application.
-- [Introduction into the WSGI ecosystem](https://www.ultravioletsoftware.com/single-post/2017/03/23/An-introduction-into-the-WSGI-ecosystem)
-- [Using Nginx for Production ready Flask app with uWSGI](https://medium.com/@ksashok/using-nginx-for-production-ready-flask-app-with-uwsgi-9da95d8ac0f9)
-
-### Gunicorn: WSGI HTTP Server used to scale Flask workers (Similar to uWSGI implemented in this project)
-
-Gunicorn 'Green Unicorn' is a Python WSGI HTTP Server for UNIX. It's a pre-fork worker model. The Gunicorn server is broadly compatible with various web frameworks, simply implemented, light on server resources, and fairly speedy
-
-- [Gunicorn](https://gunicorn.org/)
-- [Deploy a Python Flask Restful API app with gunicorn, supervisor and nginx](https://medium.com/@thucnc/deploy-a-python-flask-restful-api-app-with-gunicorn-supervisor-and-nginx-62b20d62691f)
-
-### Celery: Distributed Task Queue
-Celery is an asynchronous task queue/job queue based on distributed message passing. It is focused on real-time operation, but supports scheduling as well.
-
-The execution units, called tasks, are executed concurrently on a single or more worker servers using multiprocessing, Eventlet, or gevent. Tasks can execute asynchronously (in the background) or synchronously (wait until ready).
-- [Celery](http://www.celeryproject.org/)
