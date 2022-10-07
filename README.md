@@ -1,4 +1,4 @@
-### Introduction
+### Introductionjhvjh
 Task Manager built in Python, Flask and SQLLite. 
 
 ### Instalation
@@ -53,7 +53,7 @@ db.create_all()
 ```
 
 ### Run
-
+curl
 To start the Flask server:
 ```shell
 python app.py
