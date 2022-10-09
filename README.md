@@ -29,8 +29,16 @@ Install required libs:
 7- link Github respositoy to Jenkins pipline on Script
 8- Use Public IP with port 5000 to access web application 
 
-### CRUD functionality 
+### CRUD functionality of Task Master
 
 ![C](https://user-images.githubusercontent.com/110677635/194753905-ad40da40-b473-47a6-9283-482132dbcb57.png)
+
+![R](https://user-images.githubusercontent.com/110677635/194754389-44c3e6cd-ea56-40a0-90eb-042581a57cbe.png)
+
+![U](https://user-images.githubusercontent.com/110677635/194755084-e6d1c318-7423-4f90-a923-d6761aa834a4.png)
+
+![D](https://user-images.githubusercontent.com/110677635/194755096-105b1501-b751-498c-b916-35bb281da1d7.png)
+
+
 
 
