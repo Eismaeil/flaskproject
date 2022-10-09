@@ -4,8 +4,6 @@ My application will be a Daily Task Manager where the user can add a task, name 
 
 ![ULM](https://user-images.githubusercontent.com/110677635/194580273-e640e859-6fdf-477c-9efa-1096867f6a88.png)
 
-![crud](https://user-images.githubusercontent.com/110677635/194752490-195b1dd0-6f24-4048-970b-ec666663b344.png)
-
 ### Technologies 
 Flask in Python This gives me the means to create the app with added functionality such as forms and database interactions.
 Python will be used to create the app.  The basic breakdown of the application will have template HTML files for the frontend of the app and the programming code (python) will used for the backend of the app on an application folder. Together these will make the web page where the CRUD functionality will incorporated.
@@ -31,5 +29,8 @@ Install required libs:
 7- link Github respositoy to Jenkins pipline on Script
 8- Use Public IP with port 5000 to access web application 
 
+### CRUD functionality 
 
-### Run
+![C](https://user-images.githubusercontent.com/110677635/194753905-ad40da40-b473-47a6-9283-482132dbcb57.png)
+
+
