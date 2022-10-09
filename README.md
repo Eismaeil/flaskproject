@@ -4,6 +4,8 @@ My application will be a Daily Task Manager where the user can add a task, name 
 
 ![ULM](https://user-images.githubusercontent.com/110677635/194580273-e640e859-6fdf-477c-9efa-1096867f6a88.png)
 
+![crud](crud.png)
+
 ### Technologies 
 Flask in Python This gives me the means to create the app with added functionality such as forms and database interactions.
 Python will be used to create the app.  The basic breakdown of the application will have template HTML files for the frontend of the app and the programming code (python) will used for the backend of the app on an application folder. Together these will make the web page where the CRUD functionality will incorporated.
