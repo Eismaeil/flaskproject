@@ -39,7 +39,10 @@ Install required libs:
 
 ![D](https://user-images.githubusercontent.com/110677635/194755096-105b1501-b751-498c-b916-35bb281da1d7.png)
 
+
 ### Pipeline technical description
+With the use of webhooks CI/CD becomes more effecient. Whenever an uplaod is made into the GitHub repository a pipeline is made to facilatate building, testing, and deploying.
+
 
 ![Pipeline technical description](https://user-images.githubusercontent.com/110677635/194755547-f0f158ec-7121-4ecc-baf6-350dae1d23f7.png)
 
