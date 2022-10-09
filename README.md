@@ -39,6 +39,10 @@ Install required libs:
 
 ![D](https://user-images.githubusercontent.com/110677635/194755096-105b1501-b751-498c-b916-35bb281da1d7.png)
 
+### Pipeline technical description
+
+![Pipeline technical description](https://user-images.githubusercontent.com/110677635/194755547-f0f158ec-7121-4ecc-baf6-350dae1d23f7.png)
+
 
 
 
