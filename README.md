@@ -43,6 +43,13 @@ Install required libs:
 
 ![Pipeline technical description](https://user-images.githubusercontent.com/110677635/194755547-f0f158ec-7121-4ecc-baf6-350dae1d23f7.png)
 
+### Improvements
 
+To help improve the app I would work on the coding aspect as this is where I had the most porblems. All the files should be kept in the same place and need to be organised in a manner that I as the developer know where all my files are. 
+The application is very basic at the moment and is not really functional for a user/admin application. For this to be a functioning app I would need to impliment a login page where users(employees) can have a drop down selection to pick what task they will complete and a seperate page for admin users where they can alter and delete information.
+As well as making it more functional I would make full use of CSS and HTML to make the application look more professional.
+In future I will plan and measure my time so that I can keep track of my progress, this in turn will hep me to effectivly Develop, Test, Release and Deploy my application while still makinging full use of CI/CD.
 
+(Application video Demonstration available on BUD week 10 activity)
 
+ 
