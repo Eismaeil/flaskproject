@@ -4,7 +4,7 @@ My application will be a Daily Task Manager where the user can add a task, name 
 
 ![ULM](https://user-images.githubusercontent.com/110677635/194580273-e640e859-6fdf-477c-9efa-1096867f6a88.png)
 
-![crud](crud.png)
+![crud](https://user-images.githubusercontent.com/110677635/194752490-195b1dd0-6f24-4048-970b-ec666663b344.png)
 
 ### Technologies 
 Flask in Python This gives me the means to create the app with added functionality such as forms and database interactions.
